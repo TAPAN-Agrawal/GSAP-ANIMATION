@@ -1,0 +1,59 @@
+.sun-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(to bottom, #87ceeb, #ffdd93); */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .sun {
+    width: 100px;
+    height: 100px;
+    /* background-color: #ffdf00; */
+    border-radius: 50%;
+    position: relative;
+    /* box-shadow: 0 0 30px #ffdf00; */
+  }
+  
+  .ray {
+    width: 5px;
+    height: 100px; /* Longer ray for better visibility */
+    background-color: #ffdf00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 100%; /* Rays start exactly from the sun's center */
+    transform: translate(-50%, -100%) rotate(0deg);
+    opacity: 0.8;
+    border-radius: 10px;
+  }
+  .yellow{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #ffdf00;
+    
+    bottom: -300px;
+  }
+  .text{
+    position: absolute;
+   
+  }
+  .circle{
+    position: absolute;
+    bottom: 111px;
+    right: 141px;
+  }
+  .circle-img{
+    position: absolute;
+   
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+  }
+  

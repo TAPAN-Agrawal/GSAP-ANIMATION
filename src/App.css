@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+}
+.green{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(124, 243, 124);
+}
+
+.ball{
+  position: absolute;
+  background-color: yellowgreen;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  top: -27px;
+}
