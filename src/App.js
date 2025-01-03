@@ -4,6 +4,8 @@ import { gsap } from "gsap";
 import Rendering from "./components/Rendering";
 import Emittion from "./components/Emittion";
 import Scroll from "./components/Scroll";
+import HorizontalPin from "./components/HorizontalPin";
+import FrameSvg from "./components/FrameSvg/FrameSvg";
 
 function App() {
   const [position,setPosition]=useState(0)
@@ -77,15 +79,15 @@ function App() {
   }, [position,positionY]); // Call timeline whenever position changes
   return (
     <div >
-      <Emittion/>
+      {/* <Emittion/> */}
       {/* <Scroll/> */}
-                                                                                                                                                                          
+          {/* <HorizontalPin/>                                                                                                                                                      */}
       {/* <Rendering/> */}
      {/* <div class="box  green">
       A
       <div className="ball"></div>
       </div> */}
-
+<FrameSvg/>
     </div>
   );
 }

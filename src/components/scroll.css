@@ -1,9 +1,4 @@
-body{
-  background-image: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3798.jpg?ga=GA1.1.277611718.1716361546&semt=ais_hybrid');
-    background-repeat: round;
-    backdrop-filter: blur(30px);
-  
-}
+
 .parent{
     position: relative;
     width: 98vw;
